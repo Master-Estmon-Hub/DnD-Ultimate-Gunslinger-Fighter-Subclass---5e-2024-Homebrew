@@ -1,0 +1,35 @@
+{
+  "id": "karakthari-gunslinger",
+  "title": "Fighter Subclass - Karak'Thari Gunslinger",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>New Fighter Subclass, an expert in firearms and explosives.</p>",
+  "authors": [
+    {
+      "name": "Master Estmon",
+      "email": "theeastmon@gmail.com",
+      "url": "https://www.youtube.com/@MasterEstmon",
+      "discord": "Estmon#6661",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "gunslinger-features",
+      "label": "Karak'thari Gunslinger Features",
+      "path": "packs/gunslinger-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
